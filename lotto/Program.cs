@@ -19,9 +19,14 @@ namespace lotto
             Console.WriteLine("\n" + "Great! Now, please select a high number for the end of your range(at least 50   more than low number):");
             int highNum = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("\n" + "Please enter six Lucky Numbers that are within the number range you have        selected:");
+            Console.WriteLine("\n" + "Please enter six Lucky Numbers that are within the number range you have        selected.");
             int[] luckyNum = new int[6];
-           
+           for(int i = 0; i < luckyNum.Length; i++)
+            {
+                Console.WriteLine("Enter number:");
+                luckyNum[i] = int.Parse(Console.ReadLine());
+            }
+
         }        
     }
 }
