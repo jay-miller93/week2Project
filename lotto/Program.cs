@@ -32,7 +32,21 @@ namespace lotto
             // }
             //cannot get function to work
 
-            Console.WriteLine("I will now randomly generat 6 numbers! Please press enter:");
+            Console.WriteLine("I will now randomly generate 6 numbers! Please press enter:");
+            Console.ReadLine();
+
+            Random ran = new Random();
+            int[] ranNum = new int[6];
+
+            for (int i = 0; < 6; i++)
+            {
+
+            }
+            //HHHHEEEEEELLPPPPPPPPPPPPPPPP
+            //LOOPS ARE HARD
+            //#FML
+
+
        
         }        
     }
