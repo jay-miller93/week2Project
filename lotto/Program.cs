@@ -26,7 +26,14 @@ namespace lotto
                 Console.WriteLine("Enter number:");
                 luckyNum[i] = int.Parse(Console.ReadLine());
             }
+            //while(int i < lowNum && int i > highNum)
+            // {
+            //     Console.WriteLine("Please enter a valid number between set number range");
+            // }
+            //cannot get function to work
 
+            Console.WriteLine("I will now randomly generat 6 numbers! Please press enter:");
+       
         }        
     }
 }
