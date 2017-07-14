@@ -42,10 +42,7 @@ namespace lotto
             {
 
             }
-            //HHHHEEEEEELLPPPPPPPPPPPPPPPP
-            //LOOPS ARE HARD
-            //#FML
-
+         
 
        
         }        
